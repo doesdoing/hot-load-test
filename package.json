@@ -1,0 +1,42 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "this is a webpack demo",
+  "main": "index.js",    //
+  "scripts": { 
+    "dev": "webpack",
+    "start": "webpack-dev-server"  //<<<< 开始使用命令：npm start ，start script ：npm start
+    /*"stop":"killall node"*/   //<<<< linux使用命令：npm stop，linux script ：npm stop
+  },
+  "author": "somebody", //<<<< 创作者名字，your name
+  "license": "ISC",
+  "devDependencies": {  //<<<< 测试服务器的使用库 ，devServer use library 
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.28.0",
+    "jquery": "^1.12.0",
+    "jquery-ui": "^1.12.0",
+    "node-sass": "^4.5.1",
+    "postcss-loader": "^0.9.1",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/doesdoing/everything.git"//<<<< this is your git address
+  }
+}
