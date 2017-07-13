@@ -8,4 +8,10 @@
 
 > npm run dev 打包文件到dist
 
+#this is very simple webpack config
 
+1.npm install / cnpm install
+
+2.npm start 
+
+3.open browser link：your pc/server ip address
